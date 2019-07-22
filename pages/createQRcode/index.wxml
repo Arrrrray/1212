@@ -16,7 +16,5 @@
   <view class="page__bd page__bd_spacing">
     <button class="weui-btn " type="primary" bindtap='createQRcode'>生成二维码</button>
   </view>
-  <view class='qrcode'>
-    <image class='qrcode-img' src="{{qrcodesrc}}"></image>
-  </view>
+
 </view>

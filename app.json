@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/createQRcode/index"
+    "pages/createQRcode/index",
+    "pages/createQRcode/qrImage/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
