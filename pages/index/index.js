@@ -60,6 +60,13 @@ Page({
     wx.redirectTo({
       url: '/pages/createQRcode/index',
     })
+  },
+  
+  // 跳转到生成条形码的页面
+  redirectToCreateBarcode: function() {
+    wx.redirectTo({
+      url: '/pages/createBarcode/index',
+    })
   }
 
 })

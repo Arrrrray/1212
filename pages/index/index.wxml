@@ -13,4 +13,5 @@
 </view>
 <view class="page__bd page__bd_spacing">
   <button class="weui-btn " type="primary" bindtap='redirectToCreateQRcode'>生成二维码</button>
+  <button class="weui-btn " type="primary" bindtap='redirectToCreateBarcode'>生成条形码</button>
 </view>

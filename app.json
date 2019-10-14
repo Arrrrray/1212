@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/createQRcode/index",
-    "pages/createQRcode/qrImage/index"
+    "pages/createQRcode/qrImage/index",
+    "pages/createBarcode/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

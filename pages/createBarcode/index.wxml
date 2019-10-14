@@ -1,0 +1,20 @@
+<!--pages/createBarCode/index.wxml-->
+<view class="page">
+  <view class="page__hd">
+    <view class="page__title">生成条形码</view>
+    <view class="page__desc">将输入的内容生成条形码机</view>
+  </view>
+  <view class="weui-cells__title">请输入条形码的内容</view>
+  <view class="weui-cells weui-cells_after-title">
+    <view class="weui-cell">
+      <view class="weui-cell__bd">
+        <textarea class="weui-textarea" placeholder="请输入条形码的内容" value="{{text}}" style="height: 3em" bindinput='inputTextChange' />
+        <view class="weui-textarea-counter">{{text_length}}/140</view>
+      </view>
+    </view>
+  </view>
+  <view class="page__bd page__bd_spacing">
+    <button class="weui-btn " type="primary" bindtap='createBarcode'>生成二维码</button>
+  </view>
+  <img id="barcode"/>
+</view>
